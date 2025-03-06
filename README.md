@@ -77,12 +77,12 @@ The response will be a list of objects, each containing an id and a name. An exa
 ### Contributing
 We welcome contributions to this project! To contribute, please follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Make your changes and commit them (git commit -am 'Add new feature').
-Push to your branch (git push origin feature/your-feature).
-Open a pull request.
-Please ensure your code is well-documented and passes any existing tests.
+- Fork the repository.
+- Create a new branch (git checkout -b feature/your-feature).
+- Make your changes and commit them (git commit -am 'Add new feature').
+- Push to your branch (git push origin feature/your-feature).
+- Open a pull request.
+- Please ensure your code is well-documented and passes any existing tests.
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
