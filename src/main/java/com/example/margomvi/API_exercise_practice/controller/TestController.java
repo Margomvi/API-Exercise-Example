@@ -16,7 +16,7 @@ public class TestController {
 
     @PostMapping
     public ResponseDTO testEndpoint(@RequestBody RequestDTO request) {
-        String result = testService.processRequest(request.getOne(),request.getTwo(),request.getThree());
+        String result = testService.processRequest(request.one(),request.two(),request.three());
 
         return new ResponseDTO(result);
     }
