@@ -42,3 +42,60 @@ If you're using Maven, run the following command to install dependencies:
 ```bash
 mvn install
 ```
+
+### Running the Application
+To run the Spring Boot application locally, use the following command:
+```bash
+mvn spring-boot:run
+```
+
+### Usage
+Once the application is running, you can access the API endpoint at http://localhost:8080/objects.
+
+Here’s an example of how to make a GET request to the endpoint:
+
+```bash
+  curl http://localhost:8080/objects
+```
+
+### Expected Response
+The response will be a list of objects, each containing an id and a name. An example response might look like this:
+
+```bash
+  [
+  {
+    "id": 1,
+    "name": "Object 1"
+  },
+  {
+    "id": 2,
+    "name": "Object 2"
+  }
+]
+```
+
+### Contributing
+We welcome contributions to this project! To contribute, please follow these steps:
+
+Fork the repository.
+Create a new branch (git checkout -b feature/your-feature).
+Make your changes and commit them (git commit -am 'Add new feature').
+Push to your branch (git push origin feature/your-feature).
+Open a pull request.
+Please ensure your code is well-documented and passes any existing tests.
+
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+### TODO
+Here are the tasks and improvements that are planned for the project:
+
+ Add authentication: Implement OAuth or API key-based authentication for API requests.
+ Error handling: Improve the error handling in the WebClient and implement retries for failed requests.
+ Unit tests: Write unit tests for service and client classes to ensure the correct functionality of the application.
+ Logging: Implement logging for request and response details for easier debugging.
+ Front-end integration: Develop a front-end interface to interact with the API and display the fetched data.
+ API Pagination: If the API supports pagination, implement pagination logic to handle larger datasets.
+ Performance optimization: Analyze and optimize the performance of asynchronous requests, especially if the API response is slow.
+
+ Feel free to add your own tasks as needed! This list will help track progress and ensure a well-rounded and completed application.
