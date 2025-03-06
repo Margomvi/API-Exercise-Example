@@ -90,12 +90,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ### TODO
 Here are the tasks and improvements that are planned for the project:
 
- Add authentication: Implement OAuth or API key-based authentication for API requests.
- Error handling: Improve the error handling in the WebClient and implement retries for failed requests.
- Unit tests: Write unit tests for service and client classes to ensure the correct functionality of the application.
- Logging: Implement logging for request and response details for easier debugging.
- Front-end integration: Develop a front-end interface to interact with the API and display the fetched data.
- API Pagination: If the API supports pagination, implement pagination logic to handle larger datasets.
- Performance optimization: Analyze and optimize the performance of asynchronous requests, especially if the API response is slow.
+ - Add authentication: Implement OAuth or API key-based authentication for API requests.
+ - Error handling: Improve the error handling in the WebClient and implement retries for failed requests.
+ - Unit tests: Write unit tests for service and client classes to ensure the correct functionality of the application.
+ - Logging: Implement logging for request and response details for easier debugging.
+ - Front-end integration: Develop a front-end interface to interact with the API and display the fetched data.
+ - API Pagination: If the API supports pagination, implement pagination logic to handle larger datasets.
+ - Performance optimization: Analyze and optimize the performance of asynchronous requests, especially if the API response is slow.
 
  Feel free to add your own tasks as needed! This list will help track progress and ensure a well-rounded and completed application.
