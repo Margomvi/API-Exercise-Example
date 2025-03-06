@@ -49,12 +49,12 @@ mvn spring-boot:run
 ```
 
 ### Usage
-Once the application is running, you can access the API endpoint at http://localhost:8080/objects.
+Once the application is running, you can access the API endpoint at http://localhost:8080/test.
 
 Here’s an example of how to make a GET request to the endpoint:
 
 ```bash
-  curl http://localhost:8080/objects
+  curl http://localhost:8080/test
 ```
 
 ### Expected Response
