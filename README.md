@@ -34,10 +34,11 @@ To get started with the project, first clone the repository to your local machin
 git clone https://github.com/your-username/your-repository.git
 ```
 
-Set up the Project
+### Set up the Project
 Make sure you have Java 17 (or the required version) installed.
 
 If you're using Maven, run the following command to install dependencies:
 
 ```bash
 mvn install
+```
