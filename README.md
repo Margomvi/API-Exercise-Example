@@ -9,8 +9,7 @@ This project is a simple Spring Boot application that consumes a REST API to fet
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Contributing](#contributing)
-6. [License](#license)
-7. [TODO](#todo)
+6. [TODO](#todo)
 
 ## Description
 
@@ -83,9 +82,6 @@ We welcome contributions to this project! To contribute, please follow these ste
 - Push to your branch (git push origin feature/your-feature).
 - Open a pull request.
 - Please ensure your code is well-documented and passes any existing tests.
-
-### License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ### TODO
 Here are the tasks and improvements that are planned for the project:
