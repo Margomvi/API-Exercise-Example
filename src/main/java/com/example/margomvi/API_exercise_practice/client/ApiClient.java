@@ -1,5 +1,6 @@
 package com.example.margomvi.API_exercise_practice.client;
 
+import com.example.margomvi.API_exercise_practice.config.ApiConfig;
 import com.example.margomvi.API_exercise_practice.model.ApiResponse;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.stereotype.Component;
@@ -12,8 +13,8 @@ import java.util.List;
 public class ApiClient {
     private final WebClient webClient;
 
-    public ApiClient(WebClient.Builder builder) {
-        this.webClient = builder.baseUrl("https://api.restful-api.dev").build();
+    public ApiClient(WebClient.Builder builder, ApiConfig apiConfig) {
+        this.webClient = builder.baseUrl(apiConfig.getBaseUrl()).build();  // Usa la URL del YAML
     }
 
     public String getFirstObjectName() {
